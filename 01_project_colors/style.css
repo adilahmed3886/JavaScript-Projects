@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#color-div-parent {
+    margin: 100px auto 100px;
+    text-align: center;
+    width: 80%;
+}
+
+.colorDivs {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#div-1 {
+    background-color: grey;
+}
+
+#div-2 {
+    background-color: white;
+}
+
+#div-3 {
+    background-color: blue;
+}
+
+#div-4 {
+    background-color: yellow;
+}
