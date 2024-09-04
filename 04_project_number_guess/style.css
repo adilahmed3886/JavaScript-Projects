@@ -77,3 +77,16 @@ button:hover{
     background-color: rgb(48, 48, 48);
 }
 
+
+#startNew {
+    display: none;
+    background-color: black;
+    color: white;
+    font-family:  "Handjet";
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#startNew:hover{
+    background-color: rgb(48, 48, 48);
+}
