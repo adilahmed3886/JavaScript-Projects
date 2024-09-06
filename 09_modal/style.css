@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+
+button{
+    background-color: black;
+    color: white;
+    scale: 2;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+div{
+    display: none;
+}
+
+.see{
+    display: block;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: yellow;
+    text-align: center;
+    padding: 4rem;
+}
+
+h1{
+    font-size: 7rem;
+}
+
+button{
+    height: 5rem;
+    width: 4rem;
+    font-size: 5rem;
+    text-align: center;
+    background-color: rgb(175, 175, 3);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(255, 192, 32);
+}
+
+
