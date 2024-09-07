@@ -112,3 +112,10 @@ button:hover {
   background-color: antiquewhite;
   transition: all 0.3s ease;
 }
+
+.comment {
+  padding: 7px;;
+  border-radius: 8px;
+  display: none;
+  margin-top: 5px;
+}
