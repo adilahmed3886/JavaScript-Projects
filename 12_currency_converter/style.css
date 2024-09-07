@@ -13,6 +13,20 @@ body {
   font-family: "Roboto";
 }
 
+
+.main {
+  position: absolute;
+  top: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+}
+
 span {
   color: blue;
   font-weight: bold;
@@ -23,6 +37,7 @@ input{
     border-radius: 15px;
     padding: 5px;
     border: 1px solid grey;
+    text-align: center;
 }
 
 form {
@@ -101,7 +116,6 @@ button {
 }
 
 .rates {
-  /* height: 15vh; */
   width: 30vh;
   padding: 5px;
   display: flex;
@@ -110,6 +124,8 @@ button {
   border-radius: 15px;
   font-size: 0.75rem;
   gap: 5px;
+  text-align: center;
+  justify-content: center;
 }
 
 .rates h1{

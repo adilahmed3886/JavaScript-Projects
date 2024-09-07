@@ -11,45 +11,48 @@
     <title>Currency Converter</title>
 </head>
 <body>
-    <h1>Currency <span>Converter</span></h1>
-    <input type="text" placeholder="enter amount">
-    <form action="">
-        <div class="currencies">
-            <div class="wrapper">
-                <h1>from:</h1>
-                <div class="currency">
-                    <div class="img">
-                         <img src="https://flagsapi.com/US/flat/64.png" alt="">
+    <div class="main">
+        <div class="title">
+            <h1>Currency <span>Converter</span></h1>
+            <input type="text" placeholder="amount">
+        </div>   
+        <form action="">
+            <div class="currencies">
+                <div class="wrapper">
+                    <h1>from:</h1>
+                    <div class="currency">
+                        <div class="img">
+                            <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                        </div>
+                        <select name="to" id="from">
+                            
+                        </select>
                     </div>
-                    <select name="to" id="from">
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+                <div class="wrapper">
+                    <h1>to:</h1>
+                    <div class="currency">
+                        <div class="img">
+                            <img src="https://flagsapi.com/GB/flat/64.png" alt="">
+                    </div>
+                        <select name="to" id="to">
                         
-                    </select>
+                        </select>
+                    </div>
                 </div>
             </div>
-            <div class="icon">
-                <i class="fa-solid fa-arrow-right-arrow-left"></i>
-            </div>
-            <div class="wrapper">
-                <h1>to:</h1>
-                <div class="currency">
-                    <div class="img">
-                        <img src="https://flagsapi.com/GB/flat/64.png" alt="">
-                   </div>
-                    <select name="to" id="to">
-                    
-                    </select>
-                </div>
-             </div>
+
+            <button class="convert">Convert</button>
+        </form>
+
+        <div class="rates">
+            <h1><span>Exchange</span> Rate:</h1>
+            <h2>1 USD = 0.85GBP</h2>
         </div>
-
-        <button class="convert">Convert</button>
-    </form>
-
-    <div class="rates">
-        <h1><span>Exchange</span> Rate:</h1>
-        <h2>1 USD = 0.85GBP</h2>
     </div>
-
     <script src="currencies.js"></script>
     <script src="script.js"></script>
 </body>
