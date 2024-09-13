@@ -387,3 +387,133 @@
 //     console.log(key)
 // })
 
+// const coding = ["js", "ruby", "java", "python", "cpp"];
+
+// for (code of coding){
+//     console.log(code)
+// }
+
+// const myCoding = [
+//     {
+//         languageName: "javascript",
+//         languageFileName: "js"
+//     },
+//     {
+//         languageName: "java",
+//         languageFileName: "java"
+//     },
+//     {
+//         languageName: "python",
+//         languageFileName: "py"
+//     },
+// ]
+
+
+
+// const coding = ["js", "ruby", "java", "python", "cpp"]
+
+
+// const values = coding.map( (item) => {
+//     return item
+// } )
+
+// console.log(values);
+
+// const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// const filtered = myNums.filter(element => element < 5)
+
+// console.log(filtered);
+
+
+// const books = [
+//     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
+//     { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
+//     { title: 'Book Three', genre: 'History', publish: 1999, edition: 2007 },
+//     { title: 'Book Four', genre: 'Non-Fiction', publish: 1989, edition: 2010 },
+//     { title: 'Book Five', genre: 'Science', publish: 2009, edition: 2014 },
+//     { title: 'Book Six', genre: 'Fiction', publish: 1987, edition: 2010 },
+//     { title: 'Book Seven', genre: 'History', publish: 1986, edition: 1996 },
+//     { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 },
+//     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
+//   ];
+
+//   const fictionBooks = books.filter(obj => obj.genre === "Fiction" && obj.publish > 1985)
+
+//   console.log(fictionBooks);
+
+
+// const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// // const newNums = myNumers.map( (num) => { return num + 10})
+
+// const newNums = myNumers
+//                 .map((num) => num * 10 )
+//                 .map( (num) => num + 1)
+//                 .filter( (num) => num >= 40)
+
+// console.log(newNums);
+
+// const sum = myNumers.reduce((acc, num) => acc + num, 5)
+// console.log(sum);
+
+
+// const shoppingCart = [
+//     {
+//         itemName: "js course",
+//         price: 2999
+//     },
+//     {
+//         itemName: "py course",
+//         price: 999
+//     },
+//     {
+//         itemName: "mobile dev course",
+//         price: 5999
+//     },
+//     {
+//         itemName: "data science course",
+//         price: 12999
+ 
+//     },
+// ]
+
+// const total = shoppingCart.reduce((acc, curr) => acc + curr.price, 0)
+// console.log(total);
+
+
+
+// array2 = array.splice(0,3, "hi", "how", "are", "you")
+// console.log(array2);
+// console.log(array);
+
+// let array = [1,2,3,4,5]
+// let array2 = [1,2,3,4,5]
+
+// switch (array) {
+//     case array === array2:
+//         console.log("hi");
+//         break;
+
+//     default:
+//         console.log("not hi")
+//         break;
+// }
+
+
+// console.log( null ?? 10 ?? 12)
+
+// const array = [1,2,3,4,5]
+// // for(let i = 0; i < array.length; i++){
+// //     console.log("this is i")
+// //     for(let j = 1; j < array.length; j++)
+// //         console.log("this is j")
+// // }
+
+// // const hi = array.filter((index) => {
+// //     return index % 2 !== 0
+// // })
+// // console.log(hi)
+
+// const sum = array.reduce((acc, curr) => acc + curr)
+// console.log(sum)
