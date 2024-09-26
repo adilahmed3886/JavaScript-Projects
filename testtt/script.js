@@ -9,7 +9,6 @@
 
 // console.log(data)
 
-
 // async function data() {
 //     try {
 //         const response = await fetch('https://api.github.com/users/adilahmed3886')
@@ -18,7 +17,7 @@
 //     } catch (error) {
 //         console.log(error);
 //     }
-    
+
 // }
 
 // fetch('https://api.github.com/users/adilahmed3886')
@@ -36,7 +35,6 @@
 // newArray = Array.from(array)
 // console.log(typeof newArray);
 
-
 // const generateHashTag = (str) => {
 //     if(str.trim().length > 280 || str.trim().length === 0){
 //         return false
@@ -48,10 +46,9 @@
 //         strJoin = newNewStr.join("");
 //         endResult = `#${strJoin}`
 //         console.log(endResult)
-        
+
 //     }
 // }
-
 
 // const generateHashTag = (str) => {
 //     let hashTag = "#";
@@ -59,11 +56,10 @@
 //         if(word){
 //             hashTag += word.charAt(0).toUpperCase() + word.slice(1);
 //         }
-        
+
 //     }
 //     return hashTag;
 // }
-
 
 // console.log(generateHashTag("hi im a dev"));
 
@@ -83,14 +79,12 @@
 //     }
 // }
 
-
 // console.log(example);
 
 // console.log(gameNameArray);
 
 // const anotherString = gameNameArray.splice(0, 5, "a", "h", "m", "e", "d")
 // console.log(anotherString)
-
 
 // let name = "Hi I'm Adil"
 // array = name.split(" ");
@@ -101,8 +95,6 @@
 //     }
 // }
 // let newnew = newArray.slice(0,5)
-
-
 
 // console.log(newnew);
 
@@ -147,7 +139,6 @@
 // console.log(myn1);
 // console.log("B ", myArr);
 
-
 // const myn2 = myArr.splice(1, 3)
 // console.log("C ", myArr);
 // console.log(myn2);
@@ -180,7 +171,6 @@
 // }
 // console.log(JsUser.test())
 
-
 // const tinderUser = {}
 // tinderUser.name = "adil"
 
@@ -207,7 +197,6 @@
 // const object = {...obj1, ...obj2, ...obj3}
 
 // console.log(object);
-
 
 // const users = [
 //     {
@@ -266,11 +255,10 @@
 //     let a = 10
 //     const b = 20
 //     console.log("INNER: ", a);
-    
+
 // }
 
 // console.log(b);
-
 
 // function one(){
 //     const username = "hitesh"
@@ -300,8 +288,8 @@
 //         console.log("Justice Leageue");
 //         break;
 //     default:
-//         console.log("DC MOVIE"); 
-//         break;   
+//         console.log("DC MOVIE");
+//         break;
 // }
 // val1 = null ?? 10 ?? 20
 
@@ -319,7 +307,7 @@
 // const str = "adil ahmed"
 // for (let i = 0; i < str.length; i++) {
 //     console.log(str[i])
-    
+
 // }
 
 // for (let index = 1; index <= 20; index++) {
@@ -328,7 +316,7 @@
 //         continue
 //     }
 //    console.log(`Value of i is ${index}`);
-    
+
 // }
 
 // const arr = [1, 2, 3, 4, 5]
@@ -347,7 +335,6 @@
 // map.set('USA', "United States of America")
 // map.set('Fr', "France")
 // map.set('IN', "India")
-
 
 // for (const [key, value] of map) {
 //     console.log(key, ':-', value);
@@ -408,10 +395,7 @@
 //     },
 // ]
 
-
-
 // const coding = ["js", "ruby", "java", "python", "cpp"]
-
 
 // const values = coding.map( (item) => {
 //     return item
@@ -424,7 +408,6 @@
 // const filtered = myNums.filter(element => element < 5)
 
 // console.log(filtered);
-
 
 // const books = [
 //     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
@@ -442,7 +425,6 @@
 
 //   console.log(fictionBooks);
 
-
 // const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // // const newNums = myNumers.map( (num) => { return num + 10})
@@ -456,7 +438,6 @@
 
 // const sum = myNumers.reduce((acc, num) => acc + num, 5)
 // console.log(sum);
-
 
 // const shoppingCart = [
 //     {
@@ -474,14 +455,12 @@
 //     {
 //         itemName: "data science course",
 //         price: 12999
- 
+
 //     },
 // ]
 
 // const total = shoppingCart.reduce((acc, curr) => acc + curr.price, 0)
 // console.log(total);
-
-
 
 // array2 = array.splice(0,3, "hi", "how", "are", "you")
 // console.log(array2);
@@ -500,7 +479,6 @@
 //         break;
 // }
 
-
 // console.log( null ?? 10 ?? 12)
 
 // const array = [1,2,3,4,5]
@@ -517,3 +495,139 @@
 
 // const sum = array.reduce((acc, curr) => acc + curr)
 // console.log(sum)
+
+// const h1 = document.querySelector("body")
+// h1.addEventListener("keydown", (e) =>  console.log(e.shiftKey))
+
+// class Person {
+//     constructor(name, age) {
+//       // 'this' refers to the object instance being created
+//       this.name = name;
+//       this.age = age;
+//     }
+
+//     // Method defined in the class
+//     greet() {
+//       console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+//     }
+//   }
+//   const person = new Person("adil", 23)
+//   console.log(person)
+
+//   function Object(name, age) {
+//     this.name =  name;
+//     this.age = age;
+//     this.greet = () => {
+//       console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+//     };
+//   }
+//   const  person2 = new Object ("adil", 23)
+//   console.log(person2)
+
+// new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         let error = false
+//         if(!error) {
+//             resolve({user: "adil", id: 1, age: 23})
+//         }else {
+//             reject("error 404")
+//         }
+//     }, 1000)
+// })
+// .then((resolve) => {
+//     console.log(resolve)
+//     const {user, id, age} = resolve
+//     return user
+// })
+// .then(user => {
+//     console.log(user)
+// })
+// .catch(error => {
+//     console.log(error)
+// }).finally(() => {
+//     console.log("Promise")
+// })
+
+// async function data() {
+//     try {
+//         const data = await new Promise((resolve, reject) => {
+//             setTimeout(() => {
+//                 let error = true
+//                 if(!error) {
+//                     resolve({user: "JAVASCRIPT", pass: 123})
+//                 }else {
+//                     reject("error 404 JS")
+//                 }
+//             }, 1000)
+//         })
+//         console.log(data)
+//     }
+//     catch (error){
+//         console.log(error)
+//     }
+// }
+
+// data()
+
+// new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         const error = true
+//         if(!error) {
+//             resolve("success")
+//         }else{
+//             reject("warning! error")
+//         }
+//     }, 500)
+// })
+// .then((res) => {
+//     console.log(res)
+// })
+// .catch((err) => {
+//     console.log(err)
+// })
+// .finally(() => {
+//     console.log("Promise Fulfilled")
+// })
+
+// const promise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         const error = false
+//         if(!error) {
+//             resolve({user: "adil", id: 1, age: 23})
+//         }else{
+//             reject("error 404")
+//         }
+//     }, 500)
+// })
+
+// .then((res) => {
+//     return res
+// })
+// .then((res) => {
+//     const {user, id, age} = res;
+//     console.log(user)
+// })
+// .catch((err) => {
+//     console.log(err)
+// })
+// .finally(() => {
+//     console.log("Promise Fulfilled")
+// })
+
+// const promise = async () => {
+//   try {
+//     const data = await fetch("https://api.github.com/users/adilahmed3886");
+//     const user = await data.json();
+//     console.log(user.followers);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+// promise();
+
+const response = fetch("https://api.github.com/users/adilahmed3886")
+.then((response) => response.json())
+.then((data) => console.log(data.followers))
+.catch((error) => console.log(error))
+.finally(() => console.log("Promise Fulfilled"))
