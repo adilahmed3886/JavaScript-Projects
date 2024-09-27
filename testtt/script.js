@@ -626,8 +626,314 @@
 
 // promise();
 
-const response = fetch("https://api.github.com/users/adilahmed3886")
-.then((response) => response.json())
-.then((data) => console.log(data.followers))
-.catch((error) => console.log(error))
-.finally(() => console.log("Promise Fulfilled"))
+// const response = fetch("https://api.github.com/users/adilahmed3886")
+// .then((response) => response.json())
+// .then((data) => console.log(data.followers))
+// .catch((error) => console.log(error))
+// .finally(() => console.log("Promise Fulfilled"))
+
+// function obj(num) {
+//     return num + 2
+// }
+// obj.strength = 35
+// console.log(obj.prototype)
+
+// function Object (name, age) {
+//     this.name = name;
+//     this.age = age;
+// };
+
+// Object.prototype.increase = function () {
+//     console.log(this.age + 1)
+// };
+
+// const newObj =  new Object("adil", 23)
+// // newObj.increase = function () {
+// //     console.log(this.age + 1)
+// // }
+
+// console.log(newObj.increase())
+
+// const str = "muskan       "
+// // String.prototype.trueLength = function () {
+// //     console.log(this.trim().length)
+// // }
+// // console.log(str.trueLength())
+
+// console.log(str.split(''))
+
+// const response = fetch("https://api.github.com/users/adilahmed3886")
+// .then((response) => response.json())
+// .then((data) => console.log(data.followers))
+// .catch((error) => console.log(error))
+// .finally(() => console.log("Promise Fulfilled"))
+
+
+
+// function User(name, age) {
+//     this.name = name
+//     this.age = age
+//     this.greet = function () {
+//         console.log(`hi ${this.name}`)
+//     }
+// }
+
+// User.prototype.increase = function () {
+//     console.log(this.age + 1)
+// }
+
+// const  newUser = new User("adil", 23)
+
+// console.log(newUser.increase())
+
+// class User {
+//     constructor(age, name) {
+//         this.age =  age;
+//         this.name = name;
+//     }
+
+//     static greet(){
+//         console.log(`hi ${this.name}`)
+//     }
+// }
+
+// class newUser extends User {
+//     constructor(age, name, id){
+//         super(age, name)
+//         this.id = id
+//     }
+
+//     encryptId(){
+//         console.log(`my id is ${this.id} and encrypted`)
+//     }
+
+// }
+
+// const user1 = new newUser(23, "adil", 1)
+
+// console.log(newUser instanceof User)
+
+// class User {
+//     constructor(email, password) {
+//         this.email = email
+//         this.password = password
+//     }
+
+//     get email(){
+//         return this._email.toUpperCase()
+//     }
+
+//     set email(email){
+//         this._email = email
+//     }
+
+//     get password(){
+//         return  this._password.toUpperCase()
+//     }
+
+//     set password(password){
+//         this._password = password
+//     }
+// }
+
+// const adil  = new User("adil@google.com", "bashfas")
+// console.log(adil.email)
+
+// class Animal{
+//     constructor(species, name){
+//         this.species = species;
+//         this.name = name;
+//     }
+
+
+//     get species(){
+//         return this._species.toUpperCase()
+//     }
+
+//     set species(value){
+//         this._species = value
+//     }
+
+//     pet(){
+//         console.log(`I  have  a ${this.species} named ${this.name}`)
+//     }
+// }
+
+// const dog = new Animal("dog", "shani")
+
+// console.log(dog.species)
+// console.log(dog.pet())
+
+// function Animal(species, name) {
+//     this._species = species;
+//     this._name = name;
+
+//     Object.defineProperty(this, "species", {
+//         get: function(){
+//             return this._species.toUpperCase()
+//         },
+//         set: function(value){
+//             this._species = value
+//         }
+//     })
+
+//     this.pet = function(){
+//         console.log(`I  have  a ${this.species} named ${this.name}`)
+//     }
+// }
+
+// const shani = new Animal("dog", "shani")
+// console.log(shani.species)
+
+
+// const Animal = {
+//     _species: "dog",
+//     _name: "shani",  
+
+//     get name(){
+//         return this._name.toUpperCase()
+//     },
+
+//     set name(value){
+//         this._name = value
+//     },
+
+//     pet() {
+//         console.log(`I  have  a ${this.species} named ${this.name}`)
+//     }
+// }
+
+// const dog = Object.create(Animal)
+// console.log(dog.pet())
+// dog.name = "wajahat"
+// console.log(dog.name)
+// console.log(dog.pet(
+// ))
+
+// function Animal() {
+//     this.speak = function(){
+//         return 'Amimal speaking'
+//     }
+// }
+
+// function Dog() {
+//     Object.setPrototypeof(Dog, Animal)
+    
+//     this.bark = function(){
+//         return 'Woof!'
+//     }
+// }
+
+// function Person(name, age) {
+//     if(age < 0){
+//         console.error('age should be a positive number')
+//     }
+//     this.name = name;
+//     this.age = age;
+    
+// }
+
+// Person.prototype.greet = function () {
+//     console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`)
+// }
+
+// const newPerson = new Person("adil", 23)
+
+// console.log(newPerson.greet())
+
+// class Vehicle {
+//     constructor(make, model) {
+//       this.make = make;
+//       this.model = model;
+//     }
+//     getdetails(){
+//         return `Make: ${this.make}, Model: ${this.model}`
+//     }
+//     move(){
+//         return "The vehicle is moving"
+//     }
+//     static isVehicle(obj){
+//         if(obj instanceof Vehicle){
+//             return true
+//         }
+//         return false
+//     }
+//   }
+  
+// class Car extends Vehicle {
+//     startEngine(){
+//         return "Engine started"
+//     }
+//     move(){
+//         return "The car  is driving"
+//     }
+// }
+// const car = new Car("Toyota", "Camry")
+
+// console.log(Vehicle.isVehicle(car))
+
+
+// Task 1
+// class BankAccount {
+//     constructor(balance = 0) {
+//       this._balance = balance;
+//     }
+
+//     get balance() {
+//       return this._balance;
+//     }
+
+//     set balance(value) {
+//         if (value >= 0) {
+//           this._balance = value;
+//         } else {
+//           console.log("Balance cannot be negative.");
+//         }
+//     }
+
+
+//     deposit(amount) {
+//         if (amount > 0) {
+//           this._balance += amount;
+//         } else {
+//           console.log("Deposit amount should be greater than zero.");
+//         }
+//     }
+
+//     withdraw(amount) {
+//         if (amount > 0 && this._balance - amount >= 0) {
+//           this._balance -= amount;
+//         } else {
+//           console.log("Insufficient funds or invalid withdrawal amount.");
+//         }
+//       }
+//     }
+  
+//   // Task 2
+//   class Shape {
+//     area(){
+//         return 0
+//     }
+//   }
+  
+//   class Circle extends Shape{
+//     constructor(radius){
+//         super()
+//         this.radius = radius
+//     }
+//     area(){
+//         return Math.PI * this.radius * this.radius
+//     }
+//   }
+  
+//   class Rectangle extends Shape{
+//     constructor(width, height){
+//         super()
+//         this.width = width
+//         this.height = height
+//     }
+//     area(){
+//         return this.width * this.height
+//     }
+//   }
+  
