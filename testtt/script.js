@@ -936,4 +936,73 @@
 //         return this.width * this.height
 //     }
 //   }
-  
+
+// let str1 = "hello"
+// let str2 = " hitesh"
+
+// let str3 = str1 + str2
+// console.log(str3)
+// console.log("2" > 1)
+// console.log(null > 0)
+
+// const gameName = String('hitesh-hc-com')
+// const aaa = gameName.split("-")
+// let bbb = []
+
+// for (let i = 0; i < aaa.length; i++) {
+//     if (aaa[i] === "-") {
+//         aaa[i] = " "
+//     }
+//     bbb.push(aaa[i].toUpperCase())
+// }
+
+// console.log(aaa.charAt(0).toUpperCase())
+
+// // console.log(bbb.join(""))
+
+// const str = "hi hi hi"
+// const str1 = str.replace(" ", "-", 4)
+
+// console.log(str)
+// console.log(str1)
+// console.log(Math.min(4, 3, 6, 8))
+
+// const date = new Date()
+// console.log(date)
+
+// const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
+
+// console.log(another_array.flat(1))
+// console.log(Array.from("Hitesh"))
+// console.log(Array.from({name: "hitesh"}))
+
+// let score1 = 100
+// let score2 = 200
+// let score3 = 300
+// console.log(Array.of(score1, score2, score3));
+
+// const obj = {
+//     name: "adil",
+//     age: 23
+// }
+
+// obj.greeting = function(){
+//     console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`)
+// }
+// console.log(obj)
+// obj.greeting()
+
+// const obj1 = {1: "a", 2: "b"}
+// const obj2 = {3: "a", 4: "b"}
+// const obj4 = {5: "a", 6: "b"}
+// const obj3 = { ...obj1, ...obj2 }
+// const obj5 = Object.assign({}, obj1, obj2, obj4)
+
+// console.log(obj3)
+// console.log(obj5)
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+
+console.log(calculateCartPrice(100, 200, 300, 400, 500))
