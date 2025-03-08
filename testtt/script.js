@@ -1001,8 +1001,23 @@
 // console.log(obj3)
 // console.log(obj5)
 
-function calculateCartPrice(val1, val2, ...num1){
-    return num1
-}
+// function calculateCartPrice(val1, val2, ...num1){
+//     return num1
+// }
 
-console.log(calculateCartPrice(100, 200, 300, 400, 500))
+// console.log(calculateCartPrice(100, 200, 300, 400, 500))
+
+// const func = () => {
+//     var a = 12
+//     console.log(a)
+// }
+
+// func()
+
+let a =  [1,2,3]
+
+let c = 12 
+let d = c +12
+
+console.log(Array.isArray(a))
+
